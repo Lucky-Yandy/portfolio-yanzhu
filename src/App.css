@@ -1,0 +1,164 @@
+
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+
+.Navbar {
+  padding-top:10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-decoration: none;
+  box-shadow: 0px -5px 10px dimgray;
+}
+
+.Navbar-menu{
+  list-style-type: none;
+  display:flex;
+  padding: 0;
+  justify-content:flex-end;
+  font-size:10px;
+  width: 97%;
+  padding-left:25px;
+  
+  
+}
+
+
+
+
+.Navbarname {
+  margin-right: auto;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.Navbarname::before {
+  content: '';
+  height: 25px;
+  width: 25px;
+  background-color: #B8860B;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.Navbar-menu li:not(:first-child):not(:last-child) a:after {
+  content: " | ";
+  margin-right: 5px;
+  color: gray;   
+}
+
+.Navbar a {
+  text-decoration: none; /* Remove underline */
+  font-size: 10px;
+  color: black;
+}
+
+.Navbar-menu li:not(:first-child):hover a {
+  color: gray;
+}
+
+
+.MainContent {
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position:fixed;
+  box-sizing: border-box;
+  width: 800px;
+  height: 600px;
+  
+  
+}
+
+.ImageContainer {
+  flex-shrink: 0; 
+  margin-right: 20px;
+}
+
+.ContentContainer {
+   flex-grow: 1;
+   box-sizing:border-box;
+   width: 400px;
+   height: 300px;
+ 
+}
+
+.ContentContainer h1{
+  margin-bottom:0px;
+  font-size:70px;
+  margin-top:-20px;
+  
+}
+
+
+.ContentContainer p{
+  box-sizing:content-box;
+  width:390px;
+  font-size:1px;
+  margin-bottom: 10px;
+  
+}
+
+.Round-image {
+  border-radius: 50%;
+  box-sizing:border-box;
+  height:450px;
+  width:450px;
+  justify-content:flex-start;
+  margin-left:-50;
+  margin-bottom:-30;
+  
+  }
+
+.Round-button {
+  border-radius: 50%;
+  
+ 
+}
+
+.Blue-button {
+  background-color: #B8860B;
+  color: black;
+  box-sizing:border-box;
+  height:120px;
+  width:120px;
+  font-size:10px;
+  margin-left: -20px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.Green-button {
+  background-color: rgb(220, 20, 60);
+  color: black;
+  box-sizing:border-box;
+  height:120px;
+  width:120px;
+  font-size:10px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.Orange-button {
+  background-color: #00FFFF;
+  color: black;
+  box-sizing:border-box;
+  height:120px;
+  width:120px;
+  font-size:10px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+
+
+
+

@@ -1,0 +1,113 @@
+
+
+
+.MyMainContent {
+  display: grid;
+  grid-template-columns: 300px 600px;
+  box-sizing: border-box;
+  width: 1000px;
+  height: calc(100vh - 60px); /* Subtract the height of your fixed navbar */
+  position: relative;
+  margin-top: 60px;
+  justify-content: center;
+  overflow-y: auto; /* Add scrollable behavior */
+}
+
+
+
+.Resume {
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  
+ 
+  
+}
+
+
+
+.Leftpart{
+   grid-column:1;
+   background-color:lightgray;
+   margin-right:-24px;
+   font-size: 14px;
+   padding:20px;
+   box-shadow: 5px 0 5px lightgray;
+   
+ }
+
+.Rightpart{
+   grid-column:2;
+   margin-left:50px;
+   box-shadow: 5px 0 5px lightgray;
+   font-size: 14px;
+   padding:20px;
+   margin-left:30px;
+ }
+ 
+ .BorderLine {
+  border-bottom: 1px solid black;
+}
+h2 { 
+ font-size:30px;
+ margin-bottom:10px;
+ margin-top:80px;
+
+}
+.Experiencemargin{
+  margin-top:50px;
+}
+.ExperienceLeft{
+ margin-left:20px;
+}
+
+
+
+.SpaceInExperience{
+  margin-top:50px;
+}
+
+.Image{
+ margin-top:50px;
+ height:300px;
+  width:300px;
+ border-radius: 50%;
+}
+
+.job-list li {
+     
+     
+      
+    }
+/*    
+.job-list li:before {
+      content: "•";  Unicode character for bullet point 
+      color: gray;
+      display: inline-block;
+      width: 1em;
+      margin-left: -2em;
+
+}
+
+.pdf-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  margin-top:50px;
+  width:1000px;
+  border: none;
+  
+  
+ .Resume {
+  display: flex;
+  position:fixed;
+  flex-direction: column;
+  align-items: center;
+  height: 800px; 
+  
+}*/
+ 
+
+
